@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+rm $HOME/.bashrc
+rm $HOME/.bash_aliases
+rm $HOME/.bash_profile
+
+ln -f ./bash/.bashrc $HOME/.bashrc
+ln -f ./bash/.bash_aliases $HOME/.bash_aliases
+ln -f ./bash/.bash_profile $HOME/.bash_profile
